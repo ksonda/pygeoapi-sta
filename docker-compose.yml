@@ -1,9 +1,0 @@
-version: '3'
-
-services:
-  pygeoapi:
-    image: webbben/pygeoapi-sensorthings:latest
-    ports:
-      - "5000:80"
-    volumes:
-      - ./config.yml:/pygeoapi/local.config.yml
