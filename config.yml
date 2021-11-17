@@ -56,8 +56,8 @@ logging:
 metadata:
     identification:
         title: 
-            en: SensorThings API example endpoint.
-        description: Provides STA reference features.
+            en: SensorThings API example endpoint for BGS.
+        description: Provides STA features
         keywords:
             en:
                 - geospatial
@@ -128,8 +128,8 @@ resources:
                 - '@iot.selfLink'
     Datastreams:
         type: collection
-        title: IoW STA Datastreams
-        description: demo IoW SensorThings API Datastreams
+        title: BGS STA Datastreams
+        description: demo BGS SensorThings API Datastreams
         keywords:
             - Datastreams
             - SensorThings
